@@ -16,6 +16,46 @@
   ],
   "catalogs": [
     {
+        "id": "kitsu-anime-popular-movie",
+        "name": "Kitsu Popular Movies",
+        "type": "anime",
+        "extra": [
+            {
+                "name": "skip"
+            }
+        ]
+    },
+    {
+        "id": "kitsu-anime-popular-tv",
+        "name": "Kitsu Popular Shows",
+        "type": "anime",
+        "extra": [
+            {
+                "name": "skip"
+            }
+        ]
+    },
+    {
+        "id": "kitsu-anime-rated-movie",
+        "name": "Kitsu Best Rated Movies",
+        "type": "anime",
+        "extra": [
+            {
+                "name": "skip"
+            }
+        ]
+    },
+    {
+        "id": "kitsu-anime-rated-tv",
+        "name": "Kitsu Best Rated Shows",
+        "type": "anime",
+        "extra": [
+            {
+                "name": "skip"
+            }
+        ]
+    },
+    {
       "id": "kitsu-anime-search-movie",
       "name": "Kitsu Movies",
       "type": "anime",
@@ -30,7 +70,7 @@
       ]
     },
     {
-      "id": "kitsu-anime-search-show",
+      "id": "kitsu-anime-search-tv",
       "name": "Kitsu Shows",
       "type": "anime",
       "extra": [
