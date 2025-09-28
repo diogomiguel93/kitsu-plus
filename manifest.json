@@ -1,0 +1,92 @@
+{
+  "id": "community.anime.kitsu.search",
+  "version": "0.0.1",
+  "name": "Anime Kitsu Search",
+  "description": "Unofficial Kitsu.io anime search catalog addon",
+  "logo": "https://i.imgur.com/7N6XGoO.png",
+  "background": "https://i.imgur.com/ym4n96o.png",
+  "resources": [
+    "catalog",
+    "meta"
+  ],
+  "types": [
+    "anime",
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "id": "kitsu-anime-search-movie",
+      "name": "Kitsu Movies",
+      "type": "anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "id": "kitsu-anime-search-show",
+      "name": "Kitsu Shows",
+      "type": "anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "id": "kitsu-anime-search-ova",
+      "name": "Kitsu OVA",
+      "type": "anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "id": "kitsu-anime-search-ona",
+      "name": "Kitsu ONA",
+      "type": "anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "id": "kitsu-anime-search-special",
+      "name": "Kitsu Specials",
+      "type": "anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    }
+  ],
+  "idPrefixes": [
+    "kitsu"
+  ]
+}
