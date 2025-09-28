@@ -20,6 +20,9 @@ def json_response(data):
     response.headers["Surrogate-Control"] = "no-store"
     return response
 
+@app.get("/")
+async def home():
+    return json_response({})
 
 @app.get("/catalog/{type}/{id}.json")
 @app.get("/catalog/{type}/{id}/{path}.json")
